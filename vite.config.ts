@@ -3,11 +3,16 @@ import glob from "fast-glob";
 import path from "path";
 import { defineConfig } from "vite";
 
+// eslint-disable-next-line local/no-relative-imports -- vite requires a fully-explicit import path
+import packageConfig from "./package.json";
+
 export default defineConfig({
   plugins: [react()],
+  base: `/${packageConfig.name}/`,
   root: path.resolve(__dirname, "src/page"),
   resolve: {
     alias: {
+      "#": path.resolve(__dirname, "."),
       "@": path.resolve(__dirname, "./src"),
     },
   },

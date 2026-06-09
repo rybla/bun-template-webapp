@@ -1,4 +1,4 @@
-# {{package-name}}
+# bun-template-webapp
 
 Dependencies:
 

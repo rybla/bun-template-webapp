@@ -24,6 +24,9 @@
     "noImplicitOverride": true,
 
     "paths": {
+      // Project root
+      "#/*": ["./*"],
+      // Source root
       "@/*": ["./src/*"]
     },
 

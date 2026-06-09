@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "{{{package-name}}}",
+      "name": "bun-template-webapp}",
       "dependencies": {
         "dotenv": "^17.4.2",
         "react": "^19",
