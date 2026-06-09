@@ -1,0 +1,6 @@
+[submodule ".agents/skills/bun"]
+	path = .agents/skills/bun
+	url = git@github.com:rybla/bun-skill.git
+[submodule ".agents/skills/just"]
+	path = .agents/skills/just
+	url = git@github.com:rybla/just-skill.git
