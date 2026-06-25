@@ -13,7 +13,7 @@
 
 import styles from "@/component/Home.module.css";
 import React, { useEffect, useRef } from "react";
-import { do_ } from "@/utility";
+import { do_ } from "@/utilities";
 
 // ============================================================================
 // WEBGL SHADER SOURCE CODES

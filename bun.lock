@@ -5,7 +5,6 @@
     "": {
       "name": "bun-template-webapp}",
       "dependencies": {
-        "dotenv": "^17.4.2",
         "react": "^19",
         "react-dom": "^19",
         "react-markdown": "^10.1.0",
@@ -21,6 +20,7 @@
         "@types/react-dom": "^19",
         "@vitejs/plugin-react": "^6.0.2",
         "dependency-cruiser": "^17.4.2",
+        "dotenv": "^17.4.2",
         "eslint": "^10.4.0",
         "eslint-plugin-jsdoc": "^63.0.0",
         "eslint-plugin-react-hooks": "^7.1.1",
